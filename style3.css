@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: #fff;
+    font-family: 'Amatic sc', sans-serif;
+}
+
+.wrapper{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(-45deg, rgb(184, 3, 255), rgb(95, 16, 214), rgb(11, 208, 226),  rgb(11, 234, 134));
+    background-size: 400% 400%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 10px;
+    animation: transition 10s ease-in-out infinite;
+}
+
+.wrapper h1{
+    font-size: 120px;
+}
+
+.wrapper h2{
+    font-size: 50px;
+    padding: 15px;
+}
+
+.wrapper a{
+    position: relative;
+    border:2px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 15px;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.wrapper a:hover{
+    font-size: 35px;
+    background-color: rgba(255, 255, 255, 0.673);
+    color:rgb(136, 130, 130);
+    transition: 0.3s;
+    transition: 0.3s cubic-bezier(0.346, 0.234, 0123, 2);
+}
+
+.wrapper h1:hover{
+    font-size: 150px;
+    transition: 0.3s;
+}
+
+.wrapper h2:hover{
+    margin: 50px;
+    font-size: 65px;
+    padding: 30px 20px;
+    border-radius: 5px;
+    background-color: rgb(136, 130, 130);
+    color:#fff;
+    transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 2);
+}
+
+
+@keyframes transition {
+    0%{
+        background-position: 0% 70%;
+    }
+    50%{
+        background-position: 70% 100%;
+    }
+    100%{
+        background-position: 0% 70%;
+    }
+}
