@@ -1,1 +1,1 @@
-estudo de css animation
+estudos de css animation
